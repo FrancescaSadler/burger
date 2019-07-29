@@ -1,0 +1,47 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+h1 { 
+  text-align: center;
+  color: black;
+  font-family: 'Faster One', cursive;
+  font-size: 100px;
+}
+
+li { 
+  width: 200px;
+  background: gray;
+ 
+    
+   
+}
+
+ul {
+  background:gray;
+  width: 300px; 
+  border-radius: 25px;
+}
+
+.create-form { 
+  background:gray;
+  width: 300px; 
+  border-radius: 25px;
+}
+
