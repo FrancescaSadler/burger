@@ -10,7 +10,13 @@ var connection = mysql.createConnection({
 });
 
 if(process.env.JAWSDB_URL){
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
+  connection = mysql.createConnection
+  ({"username": "ezkemfq6xbgai1mi",
+  "password": "a87jjubriz2i1kvx",
+  "database": "ggb36ed9hf1i6tfj",
+  "host": "edo4plet5mhv93s3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  "port": 3306,
+  "dialect": "mysql"});
 
 }else{
   connection = mysql.createConnection({
